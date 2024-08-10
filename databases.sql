@@ -28,6 +28,13 @@ CREATE TABLE obat(
   stok INT
 );
 
+CREATE TABLE dokter(
+  kd_dokter Integer(5) AUTO_INCREMENT PRIMARY KEY,
+  nm_dokter Varchar(50),
+  telpon Varchar(15),
+  alamat Varchar(100)
+);
+
 INSERT INTO `users` (`Id`, `username`, `password`, `level`) VALUES
 (1, 'hendra', '7c222fb2927d828af22f592134e8932480637c0d', 'administrator'),
 (2, 'via lestari', '7c222fb2927d828af22f592134e8932480637c0d', 'user');

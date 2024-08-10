@@ -185,6 +185,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
                       <p>Obat</p>
                     </a>
                   </li>
+                  <li class="nav-item">
+                    <a href="index.php?page=dokter" class="nav-link <?php echo $page == 'dokter' ? 'active' : ''; ?>">
+                      <i class="far fa-circle nav-icon"></i>
+                      <p>Dokter</p>
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
